@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(245, 236, 236);
+}
+.App{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.initialbox{
+     width: 500px;
+     height: 500px;
+     border: 5px solid rgb(46, 36, 231);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.secondbox{
+ 
+    height: 500px;
+    border: 1px solid rgb(24, 17, 217);
+    margin-left: 250px;
+}
+.secondbox1{
+    width: 500px;
+    border: 1px solid rgb(58, 21, 225);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    margin-top: 250px
+}
+.cont{
+    display: flex;
+    position: relative;
+} 
+.box2{
+    width: 250px; 
+    height: 250px;
+    border: 1px solid rgb(65, 21, 210);
+    position: absolute;
+}
+.thirdbox{
+    /* width: 5px; */
+    height: 250px;
+    border: 1px solid rgb(45, 9, 190);
+    margin-left: 125px;
+    position:absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.thirdbox1{
+    width:250px;
+    /* height: 125px; */
+    border: 2px solid rgb(18, 14, 209);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position:absolute;
+    margin-top: 125px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    margin-left: 440px;
+    margin-top: 10px;
 }
